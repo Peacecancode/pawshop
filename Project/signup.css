@@ -1,0 +1,332 @@
+/* begining of Signup.html */
+*{
+    
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bimage{
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("Projectimages/pexels-deniz-yücel-8053154.jpg");
+    width: 100%;
+   background-position: center;
+   background-size: contain;
+   background-repeat: no-repeat;
+  
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-decoration: none;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    padding: 10px;
+    background-image: linear-gradient(rgba(87, 46, 28, 0.5), rgba(0, 0, 0, 0.6));
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-decoration: none;
+    width: 98.27%;
+    margin: auto;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .div1 {
+    width: 100%;
+    background-image: linear-gradient(rgba(87, 46, 28, 0.5), rgba(0, 0, 0, 0.6));
+  }
+
+  .navbar {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .li {
+    list-style-type: none;
+  }
+  
+  .logo_img {
+   width: 12%;
+  }
+  
+  .logo{
+      display: flex;
+      
+  }
+
+  .logo p{
+    color: white;
+    margin-left: 10px;
+    font-style: italic;
+    }
+    
+    .ul {
+      display: flex;
+      justify-content: space-between;
+      width: 60%;
+      font-size: 15px;
+      align-items: center;
+      padding: 0;
+    }
+
+   
+
+    .ab {
+        text-decoration: none;
+        border-radius: 10px;
+        background-color: white;
+        padding: 5px 10px 5px 10px;
+        color: black;
+      }
+      
+      .a {
+        color: white;
+        text-decoration: none;
+      }
+      .footer{
+        width: 100%;
+        background-color:rgb(74, 37, 22);
+        color: white;
+        text-align: center;
+        padding: 20px;
+        font-size: 16px;
+       
+    }
+
+    .pbtn{
+        margin-bottom: 20px;
+    }
+    
+.button{
+    background-color: rgb(74, 37, 22);
+    border: 2px solid rgb(253, 253, 253);
+    border-radius: 10px;
+    width: 100%;
+
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+   
+    
+
+
+}
+
+
+.b{
+    
+
+}
+
+
+.la{
+    color: white;
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+     text-decoration: none;
+     width: 98.27%;
+     margin: auto;
+    align-items: center;
+    padding: 10px ; 
+    background-color:  rgba(0, 0, 0, 0.8);
+    
+}
+
+.button:hover{
+    background-color: rgb(40, 19, 11);
+    cursor: pointer;
+}
+
+.div1{
+    width: 100%;
+    background-image: linear-gradient(rgba(191, 73, 27, 0.5), rgba(0, 0, 0, 0.6));
+    
+}
+
+
+
+
+ .li{
+    list-style-type: none;
+ 
+
+ }
+
+
+ .lo{
+   color: white;
+
+ }
+
+ .ul{
+    display: flex;
+    justify-content: space-between;
+     width: 60%;
+     font-size: 15px;
+     align-items: center;
+     padding: 0;
+    
+    
+ }
+
+ .p{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    
+ }
+
+ .log{
+    color: rgb(47, 47, 210);
+ }
+
+ .ab{
+   text-decoration: none;
+    border-radius: 10px;
+   background-color: white;
+    padding:  5px 10px 5px 10px;
+    color: black;
+    
+ }
+
+
+ .a{
+    color: white;
+    text-decoration: none;
+ }
+
+
+
+.in{
+   width: 100%;
+    height: 42px;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.form{
+    
+    width: 50%;
+    margin: auto;
+  
+
+}
+
+
+.div2{
+    border: 1px solid rgb(255, 255, 255);
+   width: 70%;
+    border-radius: 50px;
+    background-color: blanchedalmond;
+    margin: auto;
+   
+  
+}
+
+.loginh2{
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.h1{
+    text-align: center;
+    padding-left: 100px;
+    color: white;
+}
+
+.miracle{
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    
+}
+
+.name{
+    margin-top: 15px;
+}
+
+/* End of Signup.html */
+
+
+
+
+/* begining of login.html  */
+.body1{
+    background-image: linear-gradient(rgb(129, 129, 230), rgb(189, 72, 72));
+   height:fit-content;
+}
+
+.loginform{
+    width: 60%;
+    margin: auto;
+
+}
+
+.loginformdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 600px;
+}
+
+.lab{
+    padding-bottom: 8px;
+        color: rgb(0, 0, 0);
+    }
+
+    .inp{
+        width: 100%;
+    height: 42px;
+    border-radius: 10px;
+    border: none;
+
+    }
+
+    .loginform p{
+        margin-top: 20px;
+    }
+
+    .button1{
+        width: 100%;
+        background-color: rgb(74, 37, 22);
+        border: 2px solid rgb(253, 253, 253);
+        border-radius: 10px;
+        cursor: pointer;
+    
+        height: 40px;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 10px;
+       
+       
+    }
+
+    .button1:hover{
+        background-color: rgb(40, 19, 11);
+    }
+ 
+
+ 
+

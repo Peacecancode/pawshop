@@ -1,0 +1,93 @@
+*{
+    background-color: yellow;
+}
+.pix{
+    color: rgb(255, 0, 0);
+}
+.pea{
+    color: rgb(0, 0, 0);
+} */
+.pea{
+    list-style-type: none;
+    
+}
+
+.pix{
+    color: rgb(139, 13, 139);
+    text-decoration: none;
+}
+.text{
+    display: flex;
+     justify-content: space-between;
+}
+.pix:hover{
+    color: black;
+    text-decoration: underline;
+    background-color: rgb(255, 0, 0);
+    padding: 10px;
+    border-radius: 10px;
+}
+.tea{
+    background-color: blue;
+    width: 50%;
+    height: 500px;
+    margin: auto;
+    position: relative;
+    border-radius: 50px 600px;
+}
+.cat{
+background-color: rgb(252, 5, 46);
+    width: 70%;
+    height: 300px;
+    position: absolute;
+    top: 90px;
+    left: 90px;
+     border-top: 20px solid greenyellow;
+     border-bottom: 20px solid pink;
+     border-left: 40px solid green;
+     border-right: 40px solid black;
+    
+   
+}
+.ten{
+    border: none;
+    border-top: none;
+    border-bottom: none;
+    background-color: blue;
+    width: 80px;
+    height: 30px;
+    border-radius: 50px;
+}
+.div{
+    background-color: aqua;
+    border-top: 50px solid indigo;
+    border-radius: 100px 0 50px 0;
+    border-bottom: 30px solid black;
+    width: 900px;
+    height: 700px;
+
+}
+.div2{
+    border: 200px solid pink;
+    background-color: blue;
+    border-radius: 50px 20px 70px 90px;
+    width: 5%;
+    height: 20px;
+    /* position: absolute; */
+    top: 50px;
+    left: 50px;
+}
+.div3{
+    background-color: purple;
+    width: 30%;
+    height: 300px;
+}
+.button{
+    background-color: white;
+    /* padding: 20px; */
+    /* margin: 20px; */
+    padding: 50px 100px 10px 0;
+
+}
+
+    
